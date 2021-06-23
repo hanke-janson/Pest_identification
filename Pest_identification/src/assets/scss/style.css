@@ -1,0 +1,698 @@
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.flex-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2em;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #343440;
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.float-r {
+  float: right;
+}
+
+.float-l {
+  float: left;
+}
+
+.fw-b {
+  font-weight: bold;
+}
+
+.title-item {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bg-color-black {
+  background-color: rgba(19, 25, 47, 0.6);
+}
+
+.bg-color-blue {
+  background-color: #1a5cd7;
+}
+
+.colorBlack {
+  color: #272727 !important;
+}
+
+.colorBlack:hover {
+  color: #272727 !important;
+}
+
+.colorGrass {
+  color: #33cea0;
+}
+
+.colorGrass:hover {
+  color: #33cea0 !important;
+}
+
+.colorRed {
+  color: #ff5722;
+}
+
+.colorRed:hover {
+  color: #ff5722 !important;
+}
+
+.colorText {
+  color: #d3d6dd !important;
+}
+
+.colorText:hover {
+  color: #d3d6dd !important;
+}
+
+.colorBlue {
+  color: #257dff !important;
+}
+
+.colorBlue:hover {
+  color: #257dff !important;
+}
+
+.text-primary {
+  color: #db9e3f;
+}
+
+.bg-primary {
+  background-color: #db9e3f;
+}
+
+.text-info-1 {
+  color: #4394e4;
+}
+
+.bg-info-1 {
+  background-color: #4394e4;
+}
+
+.text-info {
+  color: #4b67af;
+}
+
+.bg-info {
+  background-color: #4b67af;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.text-light {
+  color: #f9f9f9;
+}
+
+.bg-light {
+  background-color: #f9f9f9;
+}
+
+.text-grey-1 {
+  color: #999999;
+}
+
+.bg-grey-1 {
+  background-color: #999999;
+}
+
+.text-grey {
+  color: #666666;
+}
+
+.bg-grey {
+  background-color: #666666;
+}
+
+.text-dark-1 {
+  color: #5f5f5f;
+}
+
+.bg-dark-1 {
+  background-color: #5f5f5f;
+}
+
+.text-dark {
+  color: #222222;
+}
+
+.bg-dark {
+  background-color: #222222;
+}
+
+.text-black-1 {
+  color: #171823;
+}
+
+.bg-black-1 {
+  background-color: #171823;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.jc-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.jc-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.jc-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jc-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jc-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.jc-evenly {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.ai-start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.ai-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.ai-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ai-stretch {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.fs-xxs {
+  font-size: 0.02rem;
+}
+
+.fs-xs {
+  font-size: 0.025rem;
+}
+
+.fs-sm {
+  font-size: 0.0575rem;
+}
+
+.fs-md {
+  font-size: 0.0325rem;
+}
+
+.fs-lg {
+  font-size: 0.035rem;
+}
+
+.fs-xl {
+  font-size: 0.04rem;
+}
+
+.fs-xxl {
+  font-size: 0.045rem;
+}
+
+.fs-xxxl {
+  font-size: 0.05rem;
+}
+
+.m-0 {
+  margin: 0rem;
+}
+
+.m-1 {
+  margin: 0.05rem;
+}
+
+.m-2 {
+  margin: 0.1rem;
+}
+
+.m-3 {
+  margin: 0.2rem;
+}
+
+.m-4 {
+  margin: 0.3rem;
+}
+
+.m-5 {
+  margin: 0.6rem;
+}
+
+.mx-0 {
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+.my-0 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.mx-1 {
+  margin-left: 0.05rem;
+  margin-right: 0.05rem;
+}
+
+.my-1 {
+  margin-top: 0.05rem;
+  margin-bottom: 0.05rem;
+}
+
+.mx-2 {
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+.my-2 {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+
+.mx-3 {
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+.my-3 {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.mx-4 {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.my-4 {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.mx-5 {
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+}
+
+.my-5 {
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.mt-0 {
+  margin-top: 0rem;
+}
+
+.mt-1 {
+  margin-top: 0.05rem;
+}
+
+.mt-2 {
+  margin-top: 0.1rem;
+}
+
+.mt-3 {
+  margin-top: 0.2rem;
+}
+
+.mt-4 {
+  margin-top: 0.3rem;
+}
+
+.mt-5 {
+  margin-top: 0.6rem;
+}
+
+.mr-0 {
+  margin-right: 0rem;
+}
+
+.mr-1 {
+  margin-right: 0.05rem;
+}
+
+.mr-2 {
+  margin-right: 0.1rem;
+}
+
+.mr-3 {
+  margin-right: 0.2rem;
+}
+
+.mr-4 {
+  margin-right: 0.3rem;
+}
+
+.mr-5 {
+  margin-right: 0.6rem;
+}
+
+.mb-0 {
+  margin-bottom: 0rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.05rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.1rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.2rem;
+}
+
+.mb-4 {
+  margin-bottom: 0.3rem;
+}
+
+.mb-5 {
+  margin-bottom: 0.6rem;
+}
+
+.ml-0 {
+  margin-left: 0rem;
+}
+
+.ml-1 {
+  margin-left: 0.05rem;
+}
+
+.ml-2 {
+  margin-left: 0.1rem;
+}
+
+.ml-3 {
+  margin-left: 0.2rem;
+}
+
+.ml-4 {
+  margin-left: 0.3rem;
+}
+
+.ml-5 {
+  margin-left: 0.6rem;
+}
+
+.m {
+  margin: 0;
+}
+
+.p-0 {
+  padding: 0rem;
+}
+
+.p-1 {
+  padding: 0.05rem;
+}
+
+.p-2 {
+  padding: 0.1rem;
+}
+
+.p-3 {
+  padding: 0.2rem;
+}
+
+.p-4 {
+  padding: 0.3rem;
+}
+
+.p-5 {
+  padding: 0.6rem;
+}
+
+.px-0 {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.py-0 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.px-1 {
+  padding-left: 0.05rem;
+  padding-right: 0.05rem;
+}
+
+.py-1 {
+  padding-top: 0.05rem;
+  padding-bottom: 0.05rem;
+}
+
+.px-2 {
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+
+.py-2 {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.px-3 {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+.py-3 {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.px-4 {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+.py-4 {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.px-5 {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+.py-5 {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.pt-0 {
+  padding-top: 0rem;
+}
+
+.pt-1 {
+  padding-top: 0.05rem;
+}
+
+.pt-2 {
+  padding-top: 0.1rem;
+}
+
+.pt-3 {
+  padding-top: 0.2rem;
+}
+
+.pt-4 {
+  padding-top: 0.3rem;
+}
+
+.pt-5 {
+  padding-top: 0.6rem;
+}
+
+.pr-0 {
+  padding-right: 0rem;
+}
+
+.pr-1 {
+  padding-right: 0.05rem;
+}
+
+.pr-2 {
+  padding-right: 0.1rem;
+}
+
+.pr-3 {
+  padding-right: 0.2rem;
+}
+
+.pr-4 {
+  padding-right: 0.3rem;
+}
+
+.pr-5 {
+  padding-right: 0.6rem;
+}
+
+.pb-0 {
+  padding-bottom: 0rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.05rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.1rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.2rem;
+}
+
+.pb-4 {
+  padding-bottom: 0.3rem;
+}
+
+.pb-5 {
+  padding-bottom: 0.6rem;
+}
+
+.pl-0 {
+  padding-left: 0rem;
+}
+
+.pl-1 {
+  padding-left: 0.05rem;
+}
+
+.pl-2 {
+  padding-left: 0.1rem;
+}
+
+.pl-3 {
+  padding-left: 0.2rem;
+}
+
+.pl-4 {
+  padding-left: 0.3rem;
+}
+
+.pl-5 {
+  padding-left: 0.6rem;
+}
+
+.p {
+  padding: 0;
+}
+/*# sourceMappingURL=style.css.map */
